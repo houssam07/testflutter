@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo from new branch',
       checkerboardOffscreenLayers: true,
-      color: Colors.white,
+      color: 1==1?Colors.white:Colors.black,
       theme: ThemeData(
         // This is the theme of your application.
         //
